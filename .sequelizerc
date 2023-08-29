@@ -1,0 +1,11 @@
+const path = require('path');
+require('ts-node').register({
+    project: path.resolve(__dirname, 'tsconfig.json') // Caminho para o arquivo tsconfig.json do seu projeto
+});
+
+module.exports = {
+    'config': path.resolve(__dirname, 'src', 'database', 'config', 'databaseCli.js'),
+    'models-path': path.resolve(__dirname, 'src', 'database', 'models'),
+    'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations'),
+}
+
