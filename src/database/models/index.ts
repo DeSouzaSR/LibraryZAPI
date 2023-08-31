@@ -1,8 +1,3 @@
-//import Sequelize from 'sequelize';
-//import * as config from '../config/database';
-
-//export default new Sequelize
-
 import { Sequelize } from "sequelize";
 import * as config from '../config/database';
 
